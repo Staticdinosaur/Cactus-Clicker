@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A game where you click a cactus" >
+		<meta name="author" content="CodingCactus" >
+		<meta name="keywords" content="CodingCactus, clicker, cactus clicker" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="Cactus.png" rel="icon"/>
+    <title>Cactus Clicker</title>
+		<link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<header>
+			<h1>Cactus Clicker</h1>
+		</header>
+
+		<button id="reset">Reset<br>(can't undo)</button>
+		<main>
+
+			<img src="Cactus.png" width="100px" draggable="false" id="cactus">
+			
+			<p id="score"></p>
+			<p id="perClick"></p>
+			<p id="perSec"></p>
+
+			<button class="upgrade" id="upgrade1">Upgrade cacti per click (+1)</button>
+			
+			<button class="auto" id="auto1">Increase cacti per second (+1)</button>
+
+			<br>
+
+			<button class="upgrade" id="upgrade10">Upgrade cacti per click (+10)</button>
+
+			<button class="auto" id="auto10">Increase cacti per second (+10)</button>
+			<br>
+			<button class="upgrade" id="upgrade100">Upgrade cacti per click (+100)</button>
+
+			<button class="auto" id="auto100">Increase cacti per second (+100)</button>
+
+			<br>
+
+			<button class="upgrade" id="upgrade1000">Upgrade cacti per click (+1000)</button>
+			
+			<button class="auto" id="auto1000">Increase cacti per second (+1000)</button>
+			
+		</main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

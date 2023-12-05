@@ -1,0 +1,19 @@
+{
+  "name": "cactus clicker",
+  "short_name": "cacti clicker",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000080",
+  "theme_color": "#000080",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "cactus.png",
+      "type": "image/png", "sizes": "192x192"
+    },
+    {
+      "src": "cacti.png",
+      "type": "image/png", "sizes": "512x512"
+    }
+  ]
+}
